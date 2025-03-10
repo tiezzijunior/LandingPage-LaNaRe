@@ -18,22 +18,280 @@
 
 <body>
     <!-- INICIO TOPBAR -->
-    <header class="topbar">
-        <div class="topbar__logo">
-            <span>Lá Na Rê</span>
-            <span class="subtitle">Café</span>
-        </div>
+    <header class="topbar" style="position: static">
+        <a href="/">
+            <div class="topbar__logo">
+                <span>Lá Na Rê</span>
+                <span class="subtitle">Café</span>
+            </div>
+        </a>
 
         <div class="topbar__menu">
             <ul class="topbar__list">
                 <li><a href="/">HOME</a></li>
-                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="/#sobre">SOBRE</a></li>
                 <li><a href="cardapio">CARDÁPIO</a></li>
-                <li><a href="#contato">CONTATO</a></li>
+                <li><a href="/#contatos">CONTATO</a></li>
             </ul>
         </div>
     </header>
     <!-- FIM TOPBAR -->
+
+    <main>
+        <div class="main-content">
+
+            <button id="btn-prev" class="btn-prev">
+                <img src="./src/assets/img/arrow-left.svg" alt="Seta para esquerda">
+            </button>
+
+            <div class="carousel">
+                <div class="card">
+                    <div class="card-header">
+                        <span>CHAPA</span>
+                    </div>
+                    <div class="card-img">
+                        <img src="./src/assets/img/cardapio/chapa.jpg" alt="Pão na Chapa">
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Pão na Chapa</li>
+                            <li>Misto Quente</li>
+                            <li>Queijo Quente</li>
+                            <li>Especial LáNaRê</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span>TAPIOCA</span>
+                    </div>
+                    <div class="card-img">
+                        <img src="./src/assets/img/cardapio/tapioca.jpg" alt="Tapioca">
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Queijo</li>
+                            <li>Presunto e Queijo</li>
+                            <li>Frango com Catupiry</li>
+                            <li>Doce de Leite e Queijo</li>
+                            <li>Creme de Avelã</li>
+                            <li>Creme de Avelã com chocolate ou doce de leite</li>
+                            <li>Especial da Mery</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span>CREPIOCA</span>
+                    </div>
+                    <div class="card-img">
+                        <img src="./src/assets/img/cardapio/crepioca.jpg" alt="Crepioca">
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Queijo</li>
+                            <li>Presunto e Queijo</li>
+                            <li>Frango com Catupiry</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span>PANQUECA</span>
+                    </div>
+                    <div class="card-img">
+                        <img src="./src/assets/img/cardapio/panqueca.jpg" alt="Panqueca">
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Banana</li>
+                            <li>Pancakes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span>PÃO DE QUEIJO<br>RECHEADO</span>
+                    </div>
+                    <div class="card-img">
+                        <img src="./src/assets/img/cardapio/pao de queijo.jpg" alt="Pão de Queijo">
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Frango com Catupiry</li>
+                            <li>Costela</li>
+                            <li>Presunto e Queijo</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span>LANCHE<br>PÃO FRANCÊS</span>
+                    </div>
+                    <div class="card-img">
+                        <img src="./src/assets/img/cardapio/lanche.jpg" alt="Lanche">
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Frango Desfiado</li>
+                            <li>Costela Desfiada</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span>BATATA<br>RECHEADA</span>
+                    </div>
+                    <div class="card-img">
+                        <img src="./src/assets/img/cardapio/batata.jpg" alt="Batata Recheada">
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Brócolis com bacon</li>
+                            <li>Queijo e bacon</li>
+                            <li>Frango com bacon</li>
+                            <li>Frango com catupiry</li>
+                            <li>Strogonoff</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span>OMELETE</span>
+                    </div>
+                    <div class="card-img">
+                        <img src="./src/assets/img/cardapio/omelete.jpg" alt="Omelete">
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Ovo Mexido</li>
+                            <li>Omelete</li>
+                            <li>Omelete Recheado I</li>
+                            <li>Omelete Recheado II</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span>SUCO</span>
+                    </div>
+                    <div class="card-img">
+                        <img src="./src/assets/img/cardapio/suco.jpg" alt="Suco">
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Laranja</li>
+                            <li>Abacaxi</li>
+                            <li>Maracujá</li>
+                            <li>Cajú</li>
+                            <li>Morango</li>
+                            <li>Uva</li>
+                            <li>Abacaxi com hortelã</li>
+                            <li>Mix do João</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span>GELADO</span>
+                    </div>
+                    <div class="card-img">
+                        <img src="./src/assets/img/cardapio/cold_coffee.jpg" alt="Café Gelado">
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Café Gelado</li>
+                            <li>Café Gelado com borda</li>
+                            <li>Capuccino Gelado</li>
+                            <li>Capuccino Gelado com Borda</li>
+                            <li>Mocaccino</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span>QUENTE</span>
+                    </div>
+                    <div class="card-img">
+                        <img src="./src/assets/img/cardapio/hot_coffee.jpg" alt="Café Quente">
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>Expresso Curto</li>
+                            <li>Expresso Longo</li>
+                            <li>Café Coado</li>
+                            <li>Café com leite</li>
+                            <li>Café com chocolate</li>
+                            <li>Capuccino</li>
+                            <li>Capuccino com chocolate</li>
+                            <li>Chocolate</li>
+                            <li>Mocaccino</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <button id="btn-next" class="btn-next">
+                <img src="./src/assets/img/arrow-right.svg" alt="Seta para direita">
+            </button>
+        </div>
+    </main>
+
+    <!-- INICIO FOOTER -->
+    <footer>
+        <div class="footer__content">
+            <div class="footer__infos">
+                <img src="./src/assets/img/logo.png" alt="Logo LaNaRe">
+                <span>
+                    Praça XV de Novembro, 128 - Centro,<br>
+                    São José do Rio Pardo<br>
+                    (19) 9 9757-2081<br>
+                    (19) 9 9262-9629
+                </span>
+            </div>
+            <div class="footer__menu">
+                <span>MENU</span>
+                <ul class="footer__menu-list">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/#sobre">SOBRE</a></li>
+                    <li><a href="cardapio">CARDÁPIO</a></li>
+                    <li><a href="/#contatos">CONTATO</a></li>
+                </ul>
+            </div>
+            <div class="footer__horarios">
+                <span>HORÁRIOS</span>
+                <ul class="footer__horarios-list">
+                    <li>Segunda: 7:00 às 18:00</li>
+                    <li>Terça: 7:00 às 18:00</li>
+                    <li>Quarta: 7:00 às 18:00</li>
+                    <li>Quinta: 7:00 às 18:00</li>
+                    <li>Sexta: 7:00 às 18:00</li>
+                    <li>Sábado: 7:00 às 13:00</li>
+                    <li>Domingo: 13:00 às 17:00</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__direitos">
+            <p>
+                Todos os direitos reservados<br>
+                Desenvolvido <span class="footer__developer">Tiezzi Junior</span>
+            </p>
+        </div>
+    </footer>
+    <!-- INICIO FOOTER -->
+
+    <script src="./src/scripts/script.js"></script>
 </body>
 
 </html>
