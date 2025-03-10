@@ -1,0 +1,379 @@
+body {
+  font-family: var(--primary-font);
+}
+
+/* TOPBAR */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: var(--secund-color);
+}
+
+.topbar__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 40px;
+  height: 100%;
+}
+
+.topbar__logo span {
+  padding-right: 40px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.topbar__logo .subtitle {
+  font-size: 1.25rem;
+}
+
+.topbar__menu {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  height: 100%;
+}
+
+.topbar__list {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0 10px 10px 0;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.topbar__list li {
+  padding: 0 10px;
+}
+
+/* CAPA */
+
+.capa {
+  background-image: url(../assets/img/capa.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.capa__slogan {
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  height: 80%;
+  padding-left: 50px;
+}
+
+.capa__button {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  height: 20%;
+}
+
+.capa__btn-cardapio {
+  background-color: var(--secund-color);
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding: 20px;
+}
+
+/* SOBRE */
+
+.sobre {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  background-color: var(--third-color);
+  color: var(--primary-color);
+}
+
+.sobre__left {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  padding-top: 20px;
+}
+
+.sobre__right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  padding-top: 20px;
+}
+
+.sobre__right-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 50%;
+  width: 100%;
+}
+
+.sobre__right .sobre__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+
+.sobre__right .sobre__text {
+  font-size: 1.15rem;
+  font-weight: 550;
+  padding-right: 30px;
+  text-align: justify;
+}
+
+.sobre__right-img {
+  display: flex;
+  justify-content: flex-end;
+  height: 50%;
+  width: 85%;
+}
+
+.sobre__right-img img {
+  max-height: 60%;
+  padding: 40px;
+  transform: rotate(7.49deg);
+  opacity: 40%;
+}
+
+.sobre__cafe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+.sobre__cafe img {
+  max-height: 80%;
+  padding-left: 80px;
+}
+
+.sobre__proprietaria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80%;
+  width: 50%;
+}
+
+.sobre__foto {
+  height: 300px;
+  width: 200px;
+  margin: 60px 0 20px 0;
+}
+
+.sobre__foto img {
+  max-height: 100%;
+}
+
+.sobre__proprietaria span {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+/* CONTATO */
+
+.contatos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 550px;
+  background-color: var(--third-color);
+  color: var(--primary-color);
+  padding-top: 20px;
+  border-top: 2px solid rgba(64, 0, 0, 0.2);
+}
+
+.contatos__title {
+  display: flex;
+  align-items: flex-end;
+  height: 20%;
+}
+
+.contatos__title span {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-left: 300px;
+}
+
+.contatos__content {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  margin-top: 30px;
+}
+
+.contatos__lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contatos__lista li a {
+  display: flex;
+  align-items: center;
+}
+
+.contatos__lista svg {
+  width: 50px;
+}
+
+.contatos__lista .vetor-ifood {
+  fill: #ea1d2c;
+}
+
+.contatos__lista .vetor-instagram {
+  fill: #ff0069;
+}
+
+.contatos__lista .vetor-whatsapp {
+  fill: #25d366;
+}
+
+.contatos__lista .title-ifood,
+.contatos__lista .text-ifood,
+.contatos__lista .title-instagram,
+.contatos__lista .text-instagram,
+.contatos__lista .title-whatsapp,
+.contatos__lista .text-whatsapp {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  padding-left: 5px;
+}
+
+.contatos__lista .title-ifood {
+  color: #ea1d2c;
+  padding-left: 5px;
+}
+
+.contatos__lista .title-instagram {
+  color: #ff0069;
+  padding-left: 5px;
+}
+
+.contatos__lista .title-whatsapp {
+  color: #25d366;
+  padding-left: 5px;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background-color: var(--secund-color);
+  color: var(--primary-color);
+  padding-top: 20px;
+}
+
+.footer__content {
+  display: flex;
+}
+
+.footer__infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  width: 30%;
+  margin-left: 50px;
+  border-right: 2px solid var(--primary-color);
+}
+
+.footer__infos img {
+  max-height: 100px;
+  padding-bottom: 20px;
+}
+
+.footer__infos span {
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  border-right: 2px solid var(--primary-color);
+}
+
+.footer__menu span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 60%;
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.footer__horarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+}
+
+.footer__horarios span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer__horarios-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.footer__direitos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.footer__direitos p {
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.footer__developer {
+  font-weight: 550;
+  color: #5D3B9C
+}
