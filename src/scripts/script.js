@@ -15,7 +15,7 @@ scrollButtonNext.addEventListener("click", () => {
   // Rola o contêiner para a próxima posição com base no tamanho de cada card
   const cardWidth = carousel.querySelector(".card").offsetWidth;
   carousel.scrollBy({
-    left: 3 * cardWidth + 10, // move a largura de um card + margem
+    left: cardWidth + 10, // move a largura de um card + margem
     behavior: "smooth", // rolagem suave
   });
 
@@ -32,7 +32,7 @@ scrollButtonPrev.addEventListener("click", () => {
   // Rola o contêiner para a próxima posição com base no tamanho de cada card
   const cardWidth = carousel.querySelector(".card").offsetWidth;
   carousel.scrollBy({
-    left: -(3 * cardWidth + 10), // move a largura de um card + margem
+    left: -(cardWidth + 10), // move a largura de um card + margem
     behavior: "smooth", // rolagem suave
   });
 

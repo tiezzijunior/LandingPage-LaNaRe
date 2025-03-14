@@ -1,5 +1,17 @@
 /* CELULARES */
 @media (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* 
+    TOPBAR
+  */
+
+  .topbar__logo {
+    padding-left: 10px;
+  }
+
   .topbar__list {
     display: none;
   }
@@ -9,14 +21,161 @@
     align-items: center;
   }
 
-  .topbar__close-menu {
-    display: block;
-    background-color: transparent;
-    border: none;
+  /* 
+    CAPA
+  */
+
+  .capa {
+    min-height: 100vh;
   }
 
-  .topbar__close-menu .fa-bars {
+  .capa__slogan {
+    font-size: 3rem;
+    padding-left: 10px;
+  }
+
+  .capa__button {
+    padding-left: 10px;
+  }
+
+  /* 
+    SOBRE
+  */
+
+  .sobre {
+    flex-direction: column;
+  }
+
+  .sobre__left {
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+  }
+
+  .sobre__right {
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    margin: 30px 10px;
+  }
+
+  .sobre__text {
+    line-height: 1.5rem;
+  }
+
+  .sobre__cafe {
+    display: none;
+  }
+
+  .sobre__proprietaria {
+    align-items: center;
+  }
+
+  .sobre__right-img {
+    display: none;
+  }
+
+  /* 
+    CONTATOS
+  */
+
+  .contatos {
+    padding-bottom: 20px;
+  }
+
+  .contatos__title {
+    justify-content: center;
+    height: 10%;
+  }
+
+  .contatos__title span {
     font-size: 2rem;
-    padding-right: 20px;
+    padding: 0;
+  }
+
+  .contatos__lista li a {
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  .contatos__lista .title-ifood,
+  .contatos__lista .text-ifood,
+  .contatos__lista .title-instagram,
+  .contatos__lista .text-instagram,
+  .contatos__lista .title-whatsapp,
+  .contatos__lista .text-whatsapp {
+    font-size: 1.25rem;
+    font-weight: 550;
+  }
+
+  /* 
+    CARDAPIO
+  */
+
+  .carousel {
+    width: 70%;
+  }
+
+  .card {
+    flex-basis: 100%;
+    scroll-snap-align: center;
+    padding: 0 10px;
+  }
+
+  .btn-prev,
+  .btn-next {
+    width: 15%;
+  }
+
+  .btn-prev img,
+  .btn-next img {
+    height: 10%;
+  }
+
+  /* 
+    FOOTER
+  */
+
+  footer {
+    height: auto;
+    width: 100%;
+  }
+
+  .footer__content {
+    flex-direction: column;
+  }
+
+  .footer__content {
+    gap: 20px;
+  }
+
+  .footer__infos,
+  .footer__menu {
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid var(--primary-color);
+    border-right: none;
+    padding-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .footer__menu-list {
+    gap: 5px;
+  }
+
+  .footer__horarios {
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+
+  .footer__horarios-list {
+    gap: 5px;
+  }
+
+  .footer__direitos p {
+    padding-left: 0;
   }
 }
