@@ -63,6 +63,10 @@ header {
   padding: 0 10px;
 }
 
+.topbar__close-menu {
+  display: none;
+}
+
 /* 
   INICIO INDEX
 */

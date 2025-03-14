@@ -1,0 +1,22 @@
+/* CELULARES */
+@media (max-width: 480px) {
+  .topbar__list {
+    display: none;
+  }
+
+  .topbar__menu {
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .topbar__close-menu {
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+
+  .topbar__close-menu .fa-bars {
+    font-size: 2rem;
+    padding-right: 20px;
+  }
+}
