@@ -3,7 +3,7 @@
 ## Imagem do projeto
 ![lanare_semfundo](https://github.com/user-attachments/assets/d6580c9c-c1ba-42f1-8c45-8ac1bed38691)
 
-Este repositório contém o código-fonte da landing page do LáNaRê Café, um projeto desenvolvido para promover a experiência única e acolhedora oferecida por esse charmoso café.
+Este repositório contém o código-fonte da landing page do LáNaRê Café (lanare.com.br), um projeto desenvolvido para promover a experiência única e acolhedora oferecida por esse charmoso café.
 A página foi criada com o objetivo de capturar a essência aconchegante do LáNaRê Café, combinando design moderno e funcionalidades intuitivas para atrair e engajar clientes.
 
 ## Tecnologias e Ferramentas
